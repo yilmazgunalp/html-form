@@ -1,0 +1,340 @@
+.clearfix {
+	
+clear: both;	
+}
+
+a  {
+text-decoration: inherit;	
+color: #45cae6;
+font-size: inherit;
+
+	
+}
+
+
+#header {
+	
+background-color: white;
+padding-bottom: 18px;	
+
+}
+
+#header a {
+	
+color: rgb(51,51,51);	
+}
+
+#main {
+background-color: white;	
+margin: 100px auto ;	
+	
+max-width: 52%;
+min-width: 300px;
+
+}
+
+#container {
+	padding-top: 15px;
+	overflow: hidden;
+	 border: 1px solid #a5a5a5;
+	 
+	box-shadow: 1px 1px 1px #a5a5a5;
+
+}
+
+#sidebar {
+padding-top: 30px;
+padding-left: 12px;
+	
+}
+
+#sidebar:before {
+	content: 	"";
+	display: inline-block;
+	border-left: 1px solid #a5a5a5;
+	height: 48ex;
+	width: 1px;
+	float: left;
+	margin-left: -22px;
+	
+}
+
+#header ul  {
+	
+float: right;
+margin: 8px;
+
+}
+
+ul li {
+	
+display: inline;
+padding-left: 10px;
+padding-right: 10px;
+
+	
+}
+#header ul a:last-child {
+	
+border-left: solid 1px lightgray;
+
+}
+
+
+#sidebar ul {
+	list-style: disc;
+	
+}
+
+
+#sidebar ul li {
+	    font-family: "AvenirNext-regular-Mint","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	display: list-item;
+	padding-left: 4px;
+	font-size: 14px;
+    color: #a5a5a5;
+	font-stretch: normal;
+    line-height: 20px;
+	margin: 7px 5px;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+
+
+
+footer {
+font-family: "AvenirNext-Regular-Mint","Helvetica Neue",Helvetica,Arial,sans-serif;
+background-color: white;	
+clear: both;
+padding-top: 56px;
+
+}
+
+footer ul {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	color: #a5a5a5;
+    font-size: 14px;
+    font-family: "AvenirNext-Regular-Mint","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer ul li {
+padding: 12px;
+-webkit-font-smoothing: subpixel-antialiased;
+}
+
+footer ul li:before {
+
+content: 	"";
+	display: inline-block;
+	border-left: 1px solid #a5a5a5;
+	height: 1.5ex;
+	width: 1px;
+	
+	margin-left: -12px;
+		margin-right: 12px;
+	
+}
+
+footer ul li:nth-child(1):before {
+	border: none;
+
+}
+
+
+
+footer p {
+padding-top: 48px;	
+	text-align: center;
+	color: #a5a5a5;
+    font-size: 13.3px;
+    font-family: "AvenirNext-Regular-Mint","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+form  * {
+	
+	display: block;
+}
+
+
+#logos {
+	
+	margin-top: 64px;
+	text-align: center;
+}
+
+#logos img:first-child {
+	
+	margin-right: 3%;
+}
+
+
+footer ul:last-child {
+	text-align: center;
+	margin-top: 30px;
+	color: #a5a5a5;
+    font-size: 11px;
+    font-family: "AvenirNext-Regular-Mint","Helvetica Neue",Helvetica,Arial,sans-serif;
+ 	
+}
+
+
+form * {
+	
+margin: 14px 28px;	
+font-size: 14px;
+    font-weight: 400;
+    font-family: "AvenirNext-Regular-Mint","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #333;
+
+}
+
+form input {
+
+width: 52%;
+height: 26px;	
+border: 1px solid #d8d8d8;
+border-radius:3px;	
+	
+}
+
+form #cbox {
+
+width: 19px;
+margin: 0;	
+float: left;
+outline-color: rgb (51,51,51);
+border: 3px solid #0077C5;
+    border-top: none;
+    border-right: none;
+
+
+}
+
+#tick {
+	
+overflow: hidden;
+
+
+vertical-align: bottom;
+
+}
+
+#rmb {
+	display: inline-block;
+	margin: 5px 8px; 
+	
+	
+}
+
+
+#form  {
+	
+	padding: 14px 28px;	
+font-size: 30px;
+box-sizing: border-box;
+
+}
+
+#terms {
+	
+	display: inline-block;
+	margin-left: 28px;
+}
+
+#form span {
+font-size: 12px;	
+	
+}
+
+#form h1 {
+padding-left: 24px;
+line-height: 1.5;
+font-family: "AvenirNext-Regular-Mint","Helvetica Neue",Helvetica,Arial,sans-serif!important;
+width: 72%;
+	
+}
+
+form h6 {
+	
+font-size: 10px;
+margin-top: -11px;
+}
+
+
+form button {
+
+background-color: #45cae6;
+width: 110px;
+padding: 8px 10px;
+height: 34px;
+border: none;
+vertical-align: middle;
+font-size: 13.5px;
+color: rgb(255,255,255);
+text-align: center;
+overflow: hidden;
+border-radius: 2px;
+
+	
+}
+
+button img {
+	
+	width: 10px; 
+	height: 13px;
+		display: inline-block;
+	
+		margin: 0 2px;
+	}
+
+@media only screen and (max-width : 760px) {
+/* Styles */
+
+#sidebar {
+visibility: hidden;	
+	
+}
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width : 761px) {
+
+
+
+
+
+#form {
+	
+
+float: left;
+width: 68%;
+
+}
+
+#sidebar {
+	
+background-color: white;
+float: right;
+width: 32%;	
+box-sizing: border-box;
+
+
+}
+
+
+
+
+
+}
